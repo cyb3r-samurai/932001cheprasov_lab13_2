@@ -1,0 +1,13 @@
+﻿@model lab13_2.Models.AnswerModel
+@{
+    ViewData["Title"] = "Quiz";
+}
+<h2>Quiz</h2>
+<b>@ViewData["Question"]</b><br/>
+<form asp-controller="Mockups">
+    <input asp-for="Answer"/><span asp-validation-for="Answer"></span><br/>
+    <div >
+        <input class="myclass" type="submit" value="Next" name="action" />
+        <input class="myclass" type="submit" value="Finish" name="action" />
+    </div>
+</form>

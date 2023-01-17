@@ -1,0 +1,67 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-left: 80px;
+}
+
+﻿
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+header nav a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+}
+
+a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+ul {
+    padding: 20px;
+}
+
+header, footer {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header {
+    background-color: #222222;
+    color: #9d9d9d;
+    height: 50px;
+    font-family: sans-serif;
+}
+
+    header h2 {
+        margin-right: 10px;
+    }
+
+b {
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top:15px;
+    font-weight: 100;
+    margin-bottom:15px;
+   
+}
+.myclass{
+    padding-top:5px;
+    padding-bottom:5px;
+    width:60px;
+    margin-top:10px;
+    margin-bottom:5px;
+}

@@ -1,0 +1,12 @@
+﻿@model lab13_2.Models.QuestListModel
+@{
+    ViewData["Title"] = "Quiz";
+}
+<h2>Quiz results</h2>
+<h4>Right answers @Model.CorrectAnswerCount out @Model.Count</h4>
+<ol>
+    @foreach (var question in Model.quests)
+    {
+        <li>@question.output() @question.UserAnswer</li>
+    }
+</ol>
